@@ -1,0 +1,13 @@
+The concept of AI cancer treatment simulator is represented by the tic-tac-toe game.
+To make a tic-tac-toe simulator, I started with making a basic outline of a tic-tac-toe game. 
+I used a for loop to iterate through the program 9 times as that is the maximum possible inputs and 
+terminate if someone wins. I used an if condition to decide, whose turn it is to play. For the users turn I 
+called a function to input the value from user and validate it, while for the AI's turn I called the AI Player 
+function. 
+The AI player function called a minimax function to get the best move to play. The minimax function went through 
+all the possible moves that could be played and assigning a value 
+for each move which could be 100( if AI wins in that possibility), -100( if user wins in that possibility) and 
+0( if it’s a draw in that possibility). The AI Player function then picks the largest possible outcome and 
+marks that move, decreasing its chances to loose. 
+I then added a function to decide if the game is drawn, or someone has to on, whose output is used to 
+print the results.
